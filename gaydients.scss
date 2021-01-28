@@ -1,0 +1,105 @@
+@import 'functions';
+$gaydients-class-prefix: 'gaydient' !default;
+
+.#{$gaydients-class-prefix}-rainbow-flag {
+  background-image: gaydient-rainbow();
+}
+
+.#{$gaydients-class-prefix}-rainbow-gradient {
+  background-image: gaydient-rainbow($chunk: 0);
+}
+
+.#{$gaydients-class-prefix}-trans-flag {
+  background-image: gaydient-trans();
+}
+
+.#{$gaydients-class-prefix}-trans-gradient {
+  background-image: gaydient-trans($chunk: 0);
+}
+
+.#{$gaydients-class-prefix}-enby-flag {
+  background-image: gaydient-enby();
+}
+
+.#{$gaydients-class-prefix}-enby-gradient {
+  background-image: gaydient-enby($chunk: 0);
+}
+
+.#{$gaydients-class-prefix}-genderqueer-flag {
+  background-image: gaydient-genderqueer();
+}
+
+.#{$gaydients-class-prefix}-genderqueer-gradient {
+  background-image: gaydient-genderqueer($chunk: 0);
+}
+
+.#{$gaydients-class-prefix}-ace-flag {
+  background-image: gaydient-ace();
+}
+
+.#{$gaydients-class-prefix}-ace-gradient {
+  background-image: gaydient-ace($chunk: 0);
+}
+
+.#{$gaydients-class-prefix}-pansexual-flag {
+  background-image: gaydient-pansexual();
+}
+
+.#{$gaydients-class-prefix}-pansexual-gradient {
+  background-image: gaydient-pansexual($chunk: 0);
+}
+
+.#{$gaydients-class-prefix}-aro-flag {
+  background-image: gaydient-aro();
+}
+
+.#{$gaydients-class-prefix}-aro-gradient {
+  background-image: gaydient-aro($chunk: 0);
+}
+
+.#{$gaydients-class-prefix}-agender-flag {
+  background-image: gaydient-agender();
+}
+
+.#{$gaydients-class-prefix}-agender-gradient {
+  background-image: gaydient-agender($chunk: 0);
+}
+
+.#{$gaydients-class-prefix}-intersex-flag {
+  background-image: gaydient-intersex();
+}
+
+.#{$gaydients-class-prefix}-intersex-gradient {
+  background-image: gaydient-intersex($chunk: 0);
+}
+
+.#{$gaydients-class-prefix}-bisexual-flag {
+  background-image: gaydient-bisexual();
+}
+
+.#{$gaydients-class-prefix}-bisexual-gradient {
+  background-image: gaydient-bisexual($chunk: 0);
+}
+
+:export {
+  rainbowFlag: gaydient-rainbow();
+  rainbowGradient: gaydient-rainbow($chunk: 0);
+  transFlag: gaydient-trans();
+  transGradient: gaydient-trans($chunk: 0);
+  enbyFlag: gaydient-enby();
+  enbyGradient: gaydient-enby($chunk: 0);
+  genderqueerFlag: gaydient-genderqueer();
+  genderqueerGradient: gaydient-genderqueer($chunk: 0);
+  aceFlag: gaydient-ace();
+  aceGradient: gaydient-ace($chunk: 0);
+  pansexualFlag: gaydient-pansexual();
+  pansexualGradient: gaydient-pansexual($chunk: 0);
+  aroFlag: gaydient-aro();
+  aroGradient: gaydient-aro($chunk: 0);
+  agenderFlag: gaydient-agender();
+  agenderGradient: gaydient-agender($chunk: 0);
+  intersexFlag: gaydient-intersex();
+  intersexGradient: gaydient-intersex($flag: false, $chunk: 0);
+  bisexualFlag: gaydient-bisexual();
+  bisexualGradient: gaydient-bisexual($chunk: 0);
+}
