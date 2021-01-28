@@ -226,4 +226,4 @@ function used to generate bisexual flag
 customizing the gradients for your exact specifications probably involves using both the sass to use the built-in functions and importing your custom values to js for best practices.
 
 ## license
-this is licensed under [GNU GPLv3](LICENCE)
+this is licensed under [GNU GPLv3](https://github.com/anarchotechqueer/gaydients/blob/main/LICENSE)
