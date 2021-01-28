@@ -21,7 +21,7 @@ there's a few ways to use gaydients, depending on your use case.
 if you're using any of the css-in-js flavors, the best way is to just import the styles as an object:
 
 ```shell
-import gaydients from 'gaydients/gaydients.scss';
+import gaydients from 'gaydients';
 ```
 
 this gives you access to each of values ready for you to use:
@@ -52,7 +52,7 @@ this gives you access to each of values ready for you to use:
 
 you can also just import the ones you need:
 ```shell
-import {transFlag, enbyFlag} from 'gaydients/gaydients.scss';
+import {transFlag, enbyFlag} from 'gaydients';
 ```
 
 ## classes
