@@ -61,7 +61,7 @@
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
 
-@function gaydient-intersex($yellow: #ffda00, $purple: #7a00ac, $opacity: 1, $degrees: 180deg, $chunk: 1, $flag: true) {
+@function gaydient-intersex($yellow: $gaydients-intersex-yellow, $purple: $gaydients-intersex-purple, $opacity: $gaydients-intersex-opacity, $degrees: $$gaydients-intersex-degrees, $chunk: $gaydients-intersex-chunk, $flag: $gaydients-intersex-flag) {
   $colors: $yellow, $purple;
 
   @if($flag) {
