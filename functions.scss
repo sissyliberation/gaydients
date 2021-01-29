@@ -49,7 +49,7 @@
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
 
-@function gaydient-aro($green: #3aa63f, $lightgreen: #a8d47a, $white: #ffffff, $grey: #aaaaaa, $black: #000000, $opacity: 1, $degrees: 180deg, $chunk: 1) {
+@function gaydient-aro($green: $gaydients-aro-green, $lightgreen: $gaydients-aro-lightgreen, $white: $gaydients-aro-white, $grey: $gaydients-aro-grey, $black: $gaydients-aro-black, $opacity: $gaydients-aro-opacity, $degrees: $gaydients-aro-degrees, $chunk: $gaydients-aro-chunk) {
   $colors: $green, $lightgreen, $white, $grey, $black;
 
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
