@@ -61,7 +61,7 @@
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
 
-@function gaydient-intersex($yellow: $gaydients-intersex-yellow, $purple: $gaydients-intersex-purple, $opacity: $gaydients-intersex-opacity, $degrees: $$gaydients-intersex-degrees, $chunk: $gaydients-intersex-chunk, $flag: $gaydients-intersex-flag) {
+@function gaydient-intersex($yellow: $gaydients-intersex-yellow, $purple: $gaydients-intersex-purple, $opacity: $gaydients-intersex-opacity, $degrees: $gaydients-intersex-degrees, $chunk: $gaydients-intersex-chunk, $flag: $gaydients-intersex-flag) {
   $colors: $yellow, $purple;
 
   @if($flag) {
@@ -75,7 +75,7 @@
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
 
-@function gaydient-bisexual($pink: #d60270, $purple: #9b4f96, $blue: #0038a8, $opacity: 1, $degrees: 180deg, $chunk: 1, $flag: true) {
+@function gaydient-bisexual($pink: $gaydients-bisexual-pink, $purple: $gaydients-bisexual-purple, $blue: $gaydients-bisexual-blue, $opacity: $gaydients-bisexual-opacity, $degrees: $gaydients-bisexual-degrees, $chunk: $gaydients-bisexual-chunk) {
   $colors: $pink, $pink, $purple, $blue, $blue;
 
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
