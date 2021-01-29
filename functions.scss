@@ -55,14 +55,8 @@
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
 
-@function gaydient-agender($black: #000000, $grey: #bababa, $white: #ffffff, $green: #baf584, $opacity: 1, $degrees: 180deg, $chunk: 1) {
+@function gaydient-agender($black: $gaydients-agender-black, $grey: $gaydients-agender-grey, $white: $gaydients-agender-white, $green: $gaydients-agender-green, $opacity: $gaydients-agender-opacity, $degrees: $gaydients-agender-degrees, $chunk: $gaydients-agender-chunk) {
   $colors: $black, $grey, $white, $green, $white, $grey, $black;
-
-  @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
-}
-
-@function gaydient-demisexual($black: #000000, $white: #fff, $grey: #a4a4a4, $purple: #810081, $opacity: 1, $degrees: 180deg, $chunk: 1) {
-  $colors: $black, $white, $grey, $purple;
 
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
