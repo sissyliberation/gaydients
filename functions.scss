@@ -25,7 +25,7 @@
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
 
-@function gaydient-enby($yellow: #fff433, $white: #fff, $purple: #9b59d0, $black: #000, $opacity: 1, $degrees: 180deg, $chunk: 1) {
+@function gaydient-enby($yellow: $gaydients-enby-yellow, $white: $gaydients-enby-white, $purple: $gaydients-enby-purple, $black: $gaydients-enby-black, $opacity: $gaydients-enby-opacity, $degrees: $gaydients-enby-degrees, $chunk: $gaydients-enby-chunk) {
   $colors: $yellow, $white, $purple, $black;
 
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
