@@ -332,6 +332,9 @@ $gaydients-bisexual-chunk: ...
 ## notes
 customizing the gradients for your exact specifications probably involves using both the sass to use the built-in functions and importing your custom values to js for best practices.
 
+## contributing
+there's lots of flags missing! please submit pull requests for new flags, or issues to request specific flags.
+
 ## license
 this is licensed under [GNU GPLv3](https://github.com/anarchotechqueer/gaydients/blob/main/LICENSE)
 
