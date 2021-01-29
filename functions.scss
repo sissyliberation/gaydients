@@ -31,7 +31,7 @@
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
 
-@function gaydient-genderqueer($lavender: #b77fdd, $white: #fff, $green: #48821e, $opacity: 1, $degrees: 180deg, $chunk: 1) {
+@function gaydient-genderqueer($lavender: $gaydients-genderqueer-lavender, $white: $gaydients-genderqueer-white, $green: $gaydients-genderqueer-green, $opacity: $$gaydients-genderqueer-opacity, $degrees: $gaydients-genderqueer-degrees, $chunk: $gaydients-genderqueer-chunk) {
   $colors: $lavender, $white, $green;
 
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
