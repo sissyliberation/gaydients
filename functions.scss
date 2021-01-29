@@ -43,7 +43,7 @@
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
 
-@function gaydient-pansexual($pink: #ff1b8d, $yellow: #ffda00, $blue: #1bb3ff, $opacity: 1, $degrees: 180deg, $chunk: 1) {
+@function gaydient-pansexual($pink: $gaydients-pansexual-pink, $yellow: $gaydients-pansexual-yellow, $blue: $gaydients-pansexual-blue, $opacity: $gaydients-pansexual-opacity, $degrees: $gaydients-pansexual-degrees, $chunk: $gaydients-pansexual-chunk) {
   $colors: $pink, $yellow, $blue;
 
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
