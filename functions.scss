@@ -37,7 +37,7 @@
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
 
-@function gaydient-ace($black: #000, $grey: #a4a4a4, $white: #fff, $purple: #810081, $opacity: 1, $degrees: 180deg, $chunk: 1) {
+@function gaydient-ace($black: $gaydients-ace-black, $grey: $gaydients-ace-grey, $white: $gaydients-ace-white, $purple: $gaydients-ace-purple, $opacity: $gaydients-ace-opacity, $degrees: $gaydients-ace-degrees, $chunk: $gaydients-ace-chunk) {
   $colors: $black, $grey, $white, $purple;
 
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
