@@ -13,61 +13,55 @@
   @return linear-gradient($degrees, unquote($gradientValue));
 }
 
-@function gaydient-rainbow($red: #ff0018, $orange: #ffa52c, $yellow: #ffff41, $green: #008018, $blue: #0000f9, $purple: #86007d, $opacity: 1, $degrees: 180deg, $chunk: 1) {
+@function gaydient-rainbow($red: $gaydients-rainbow-red, $orange: $gaydients-rainbow-orange, $yellow: $gaydients-rainbow-yellow, $green: $gaydients-rainbow-green, $blue: $gaydients-rainbow-blue, $purple: $gaydients-rainbow-purple, $opacity: $gaydients-rainbow-opacity, $degrees: $gaydients-rainbow-degrees, $chunk: $gaydients-rainbow-chunk) {
   $colors: $red, $orange, $yellow, $green, $blue, $purple;
 
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
 
-@function gaydient-trans($blue: #55cdfc, $pink: #f7a8b8, $white: #fff, $opacity: 1, $degrees: 180deg, $chunk: 1) {
+@function gaydient-trans($blue: $gaydients-trans-blue, $pink: $gaydients-trans-pink, $white: $gaydients-trans-white, $opacity: $gaydients-trans-opacity, $degrees: $gaydients-trans-degrees, $chunk: $gaydients-trans-chunk) {
   $colors: $blue, $pink, $white, $pink, $blue;
 
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
 
-@function gaydient-enby($yellow: #fff433, $white: #fff, $purple: #9b59d0, $black: #000, $opacity: 1, $degrees: 180deg, $chunk: 1) {
+@function gaydient-enby($yellow: $gaydients-enby-yellow, $white: $gaydients-enby-white, $purple: $gaydients-enby-purple, $black: $gaydients-enby-black, $opacity: $gaydients-enby-opacity, $degrees: $gaydients-enby-degrees, $chunk: $gaydients-enby-chunk) {
   $colors: $yellow, $white, $purple, $black;
 
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
 
-@function gaydient-genderqueer($lavender: #b77fdd, $white: #fff, $green: #48821e, $opacity: 1, $degrees: 180deg, $chunk: 1) {
+@function gaydient-genderqueer($lavender: $gaydients-genderqueer-lavender, $white: $gaydients-genderqueer-white, $green: $gaydients-genderqueer-green, $opacity: $gaydients-genderqueer-opacity, $degrees: $gaydients-genderqueer-degrees, $chunk: $gaydients-genderqueer-chunk) {
   $colors: $lavender, $white, $green;
 
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
 
-@function gaydient-ace($black: #000, $grey: #a4a4a4, $white: #fff, $purple: #810081, $opacity: 1, $degrees: 180deg, $chunk: 1) {
+@function gaydient-ace($black: $gaydients-ace-black, $grey: $gaydients-ace-grey, $white: $gaydients-ace-white, $purple: $gaydients-ace-purple, $opacity: $gaydients-ace-opacity, $degrees: $gaydients-ace-degrees, $chunk: $gaydients-ace-chunk) {
   $colors: $black, $grey, $white, $purple;
 
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
 
-@function gaydient-pansexual($pink: #ff1b8d, $yellow: #ffda00, $blue: #1bb3ff, $opacity: 1, $degrees: 180deg, $chunk: 1) {
+@function gaydient-pansexual($pink: $gaydients-pansexual-pink, $yellow: $gaydients-pansexual-yellow, $blue: $gaydients-pansexual-blue, $opacity: $gaydients-pansexual-opacity, $degrees: $gaydients-pansexual-degrees, $chunk: $gaydients-pansexual-chunk) {
   $colors: $pink, $yellow, $blue;
 
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
 
-@function gaydient-aro($green: #3aa63f, $lightgreen: #a8d47a, $white: #ffffff, $grey: #aaaaaa, $black: #000000, $opacity: 1, $degrees: 180deg, $chunk: 1) {
+@function gaydient-aro($green: $gaydients-aro-green, $lightgreen: $gaydients-aro-lightgreen, $white: $gaydients-aro-white, $grey: $gaydients-aro-grey, $black: $gaydients-aro-black, $opacity: $gaydients-aro-opacity, $degrees: $gaydients-aro-degrees, $chunk: $gaydients-aro-chunk) {
   $colors: $green, $lightgreen, $white, $grey, $black;
 
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
 
-@function gaydient-agender($black: #000000, $grey: #bababa, $white: #ffffff, $green: #baf584, $opacity: 1, $degrees: 180deg, $chunk: 1) {
+@function gaydient-agender($black: $gaydients-agender-black, $grey: $gaydients-agender-grey, $white: $gaydients-agender-white, $green: $gaydients-agender-green, $opacity: $gaydients-agender-opacity, $degrees: $gaydients-agender-degrees, $chunk: $gaydients-agender-chunk) {
   $colors: $black, $grey, $white, $green, $white, $grey, $black;
 
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
 
-@function gaydient-demisexual($black: #000000, $white: #fff, $grey: #a4a4a4, $purple: #810081, $opacity: 1, $degrees: 180deg, $chunk: 1) {
-  $colors: $black, $white, $grey, $purple;
-
-  @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
-}
-
-@function gaydient-intersex($yellow: #ffda00, $purple: #7a00ac, $opacity: 1, $degrees: 180deg, $chunk: 1, $flag: true) {
+@function gaydient-intersex($yellow: $gaydients-intersex-yellow, $purple: $gaydients-intersex-purple, $opacity: $gaydients-intersex-opacity, $degrees: $gaydients-intersex-degrees, $chunk: $gaydients-intersex-chunk, $flag: $gaydients-intersex-flag) {
   $colors: $yellow, $purple;
 
   @if($flag) {
@@ -81,7 +75,7 @@
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
 
-@function gaydient-bisexual($pink: #d60270, $purple: #9b4f96, $blue: #0038a8, $opacity: 1, $degrees: 180deg, $chunk: 1, $flag: true) {
+@function gaydient-bisexual($pink: $gaydients-bisexual-pink, $purple: $gaydients-bisexual-purple, $blue: $gaydients-bisexual-blue, $opacity: $gaydients-bisexual-opacity, $degrees: $gaydients-bisexual-degrees, $chunk: $gaydients-bisexual-chunk) {
   $colors: $pink, $pink, $purple, $blue, $blue;
 
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
