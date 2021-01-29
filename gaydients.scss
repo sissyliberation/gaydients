@@ -1,5 +1,5 @@
+@import 'variables';
 @import 'functions';
-$gaydients-class-prefix: 'gaydient' !default;
 
 .#{$gaydients-class-prefix}-rainbow-flag {
   background-image: gaydient-rainbow();

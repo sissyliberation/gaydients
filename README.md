@@ -228,5 +228,11 @@ customizing the gradients for your exact specifications probably involves using 
 ## license
 this is licensed under [GNU GPLv3](https://github.com/anarchotechqueer/gaydients/blob/main/LICENSE)
 
+## change log
+| version | change |
+| ------ | ------ |
+| 1.0.1 | create file for variables. make all default values variables |
+
+
 ## shout out
 shout out to the person who owns [gaydients.com](https://gaydients.com/). i ran across this after building this trying to get a domain name.
