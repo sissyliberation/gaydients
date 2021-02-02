@@ -20,12 +20,12 @@ there's a few ways to use gaydients, depending on your use case.
 
 if you're using any of the css-in-js flavors, the best way is to just import the styles as an object:
 
-```shell
+```JSX
 import gaydients from 'gaydients';
 ```
 
 this gives you access to each of values ready for you to use:
-```shell
+```JSX
 {
   rainbowFlag: ...,
   rainbowGradient: ...,
@@ -53,7 +53,7 @@ this gives you access to each of values ready for you to use:
 ```
 
 you can also just import the ones you need:
-```shell
+```JSX
 import {transFlag, enbyFlag} from 'gaydients';
 ```
 
@@ -61,7 +61,7 @@ import {transFlag, enbyFlag} from 'gaydients';
 there's also convenient classes you can use for default flags and gradients.
 
 just import the sass:
-```shell
+```scss
 @import "~gaydients/gaydients.scss";
 ```
 
@@ -114,7 +114,7 @@ function used to generate pride flag
 | $chunk | 1 | how solid each color portion is | number between 0 and 1 (inclusive) |
 
 these defaults are set through the following variables:
-```shell
+```scss
 $gaydients-pride-black: ...
 $gaydients-pride-brown: ...
 $gaydients-pride-red: ...
@@ -141,7 +141,7 @@ function used to generate trans flag
 | $chunk | 1 | how solid each color portion is | number between 0 and 1 (inclusive) |
 
 these defaults are set through the following variables:
-```shell
+```scss
 $gaydients-trans-blue: ...
 $gaydients-trans-pink: ...
 $gaydients-trans-white: ...
@@ -164,7 +164,7 @@ function used to generate non-binary flag
 | $chunk | 1 | how solid each color portion is | number between 0 and 1 (inclusive) |
 
 these defaults are set through the following variables:
-```shell
+```scss
 $gaydients-enby-yellow: ...
 $gaydients-enby-white: ...
 $gaydients-enby-purple: ...
@@ -188,7 +188,7 @@ function used to generate genderqueer flag
 | $chunk | 1 | how solid each color portion is | number between 0 and 1 (inclusive) |
 
 these defaults are set through the following variables:
-```shell
+```scss
 $gaydients-genderqueer-lavender: ...
 $gaydients-genderqueer-white: ...
 $gaydients-genderqueer-green: ...
@@ -211,7 +211,7 @@ function used to generate ace flag
 | $chunk | 1 | how solid each color portion is | number between 0 and 1 (inclusive) |
 
 these defaults are set through the following variables:
-```shell
+```scss
 $gaydients-ace-black: ...
 $gaydients-ace-grey: ...
 $gaydients-ace-white: ...
@@ -234,7 +234,7 @@ function used to generate pansexual flag
 | $chunk | 1 | how solid each color portion is | number between 0 and 1 (inclusive) |
 
 these defaults are set through the following variables:
-```shell
+```scss
 $gaydients-pansexual-pink: ...
 $gaydients-pansexual-yellow: ...
 $gaydients-pansexual-blue: ...
@@ -258,7 +258,7 @@ function used to generate aro flag
 | $chunk | 1 | how solid each color portion is | number between 0 and 1 (inclusive) |
 
 these defaults are set through the following variables:
-```shell
+```scss
 $gaydients-aro-green: ...
 $gaydients-aro-lightgreen: ...
 $gaydients-aro-white: ...
@@ -283,7 +283,7 @@ function used to generate agender flag
 | $chunk | 1 | how solid each color portion is | number between 0 and 1 (inclusive) |
 
 these defaults are set through the following variables:
-```shell
+```scss
 $gaydients-agender-black: ...
 $gaydients-agender-grey: ...
 $gaydients-agender-white: ...
@@ -306,7 +306,7 @@ function used to generate intersex flag
 | $flag | true | determines whether to render a flag or gradient | bool |
 
 these defaults are set through the following variables:
-```shell
+```scss
 $gaydients-intersex-yellow: ...
 $gaydients-intersex-purple: ...
 $gaydients-intersex-opacity: ...
@@ -327,7 +327,7 @@ function used to generate bisexual flag
 | $degrees | 180deg | degrees at which gradient is rendered | degrees |
 | $chunk | 1 | how solid each color portion is | number between 0 and 1 (inclusive) |
 
-```shell
+```scss
 $gaydients-bisexual-pink: ...
 $gaydients-bisexual-purple: ...
 $gaydients-bisexual-blue: ...
@@ -352,7 +352,7 @@ function used to generate rainbow flag
 | $chunk | 1 | how solid each color portion is | number between 0 and 1 (inclusive) |
 
 these defaults are set through the following variables:
-```shell
+```scss
 $gaydients-rainbow-red: ...
 $gaydients-rainbow-orange: ...
 $gaydients-rainbow-yellow: ...
@@ -377,7 +377,7 @@ function used to generate black trans flag
 | $chunk | 1 | how solid each color portion is | number between 0 and 1 (inclusive) |
 
 these defaults are set through the following variables:
-```shell
+```scss
 $gaydients-black-trans-blue: ...
 $gaydients-black-trans-pink: ...
 $gaydients-black-trans-black: ...
