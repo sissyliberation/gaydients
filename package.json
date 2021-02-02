@@ -1,6 +1,6 @@
 {
   "name": "gaydients",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "gaydients is a collection of lgbtqiap+ gradients made with css. they help make the web gay.",
   "main": "./gaydients.scss",
   "scripts": {
