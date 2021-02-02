@@ -1,12 +1,12 @@
 @import 'variables';
 @import 'functions';
 
-.#{$gaydients-class-prefix}-rainbow-flag {
-  background-image: gaydient-rainbow();
+.#{$gaydients-class-prefix}-pride-flag {
+  background-image: gaydient-pride();
 }
 
-.#{$gaydients-class-prefix}-rainbow-gradient {
-  background-image: gaydient-rainbow($chunk: 0);
+.#{$gaydients-class-prefix}-pride-gradient {
+  background-image: gaydient-pride($chunk: 0);
 }
 
 .#{$gaydients-class-prefix}-trans-flag {
@@ -81,9 +81,17 @@
   background-image: gaydient-bisexual($chunk: 0);
 }
 
+.#{$gaydients-class-prefix}-rainbow-flag {
+  background-image: gaydient-rainbow();
+}
+
+.#{$gaydients-class-prefix}-rainbow-gradient {
+  background-image: gaydient-rainbow($chunk: 0);
+}
+
 :export {
-  rainbowFlag: gaydient-rainbow();
-  rainbowGradient: gaydient-rainbow($chunk: 0);
+  prideFlag: gaydient-pride();
+  prideGradient: gaydient-pride($chunk: 0);
   transFlag: gaydient-trans();
   transGradient: gaydient-trans($chunk: 0);
   enbyFlag: gaydient-enby();
@@ -102,4 +110,6 @@
   intersexGradient: gaydient-intersex($flag: false, $chunk: 0);
   bisexualFlag: gaydient-bisexual();
   bisexualGradient: gaydient-bisexual($chunk: 0);
+  rainbowFlag: gaydient-rainbow();
+  rainbowGradient: gaydient-rainbow($chunk: 0);
 }
