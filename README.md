@@ -364,6 +364,28 @@ $gaydients-rainbow-degrees: ...
 $gaydients-rainbow-chunk: ...
 ```
 
+### gaydient-black-trans
+function used to generate black trans flag
+
+| parameter | default value | description | type |
+| ------ | ------ | ------ | ------ |
+| $blue | #55cdfc | blue portion | hex |
+| $pink | #f7a8b8 | pink portion | hex |
+| $black | #000000 | black portion | hex |
+| $opacity | 1 | the opacity of each color | number between 0 and 1 (inclusive) |
+| $degrees | 180deg | degrees at which gradient is rendered | degrees |
+| $chunk | 1 | how solid each color portion is | number between 0 and 1 (inclusive) |
+
+these defaults are set through the following variables:
+```shell
+$gaydients-black-trans-blue: ...
+$gaydients-black-trans-pink: ...
+$gaydients-black-trans-black: ...
+$gaydients-black-trans-opacity: ...
+$gaydients-black-trans-degrees: ...
+$gaydients-black-trans-chunk: ...
+```
+
 ## notes
 customizing the gradients for your exact specifications probably involves using both the sass to use the built-in functions and importing your custom values to js for best practices.
 

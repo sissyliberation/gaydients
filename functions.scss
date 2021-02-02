@@ -86,3 +86,9 @@
 
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
+
+@function gaydient-black-trans($blue: $gaydients-black-trans-blue, $pink: $gaydients-black-trans-pink, $black: $gaydients-black-trans-black, $opacity: $gaydients-black-trans-opacity, $degrees: $gaydients-black-trans-degrees, $chunk: $gaydients-black-trans-chunk) {
+  $colors: $blue, $pink, $black, $pink, $blue;
+
+  @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
+}
