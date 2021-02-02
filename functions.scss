@@ -13,8 +13,8 @@
   @return linear-gradient($degrees, unquote($gradientValue));
 }
 
-@function gaydient-rainbow($red: $gaydients-rainbow-red, $orange: $gaydients-rainbow-orange, $yellow: $gaydients-rainbow-yellow, $green: $gaydients-rainbow-green, $blue: $gaydients-rainbow-blue, $purple: $gaydients-rainbow-purple, $opacity: $gaydients-rainbow-opacity, $degrees: $gaydients-rainbow-degrees, $chunk: $gaydients-rainbow-chunk) {
-  $colors: $red, $orange, $yellow, $green, $blue, $purple;
+@function gaydient-pride($black: $gaydients-pride-black, $brown: $gaydients-pride-brown, $red: $gaydients-pride-red, $orange: $gaydients-pride-orange, $yellow: $gaydients-pride-yellow, $green: $gaydients-pride-green, $blue: $gaydients-pride-blue, $purple: $gaydients-pride-purple, $opacity: $gaydients-pride-opacity, $degrees: $gaydients-pride-degrees, $chunk: $gaydients-pride-chunk) {
+  $colors: $black, $brown, $red, $orange, $yellow, $green, $blue, $purple;
 
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
@@ -77,6 +77,18 @@
 
 @function gaydient-bisexual($pink: $gaydients-bisexual-pink, $purple: $gaydients-bisexual-purple, $blue: $gaydients-bisexual-blue, $opacity: $gaydients-bisexual-opacity, $degrees: $gaydients-bisexual-degrees, $chunk: $gaydients-bisexual-chunk) {
   $colors: $pink, $pink, $purple, $blue, $blue;
+
+  @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
+}
+
+@function gaydient-rainbow($red: $gaydients-rainbow-red, $orange: $gaydients-rainbow-orange, $yellow: $gaydients-rainbow-yellow, $green: $gaydients-rainbow-green, $blue: $gaydients-rainbow-blue, $purple: $gaydients-rainbow-purple, $opacity: $gaydients-rainbow-opacity, $degrees: $gaydients-rainbow-degrees, $chunk: $gaydients-rainbow-chunk) {
+  $colors: $red, $orange, $yellow, $green, $blue, $purple;
+
+  @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
+}
+
+@function gaydient-black-trans($blue: $gaydients-black-trans-blue, $pink: $gaydients-black-trans-pink, $black: $gaydients-black-trans-black, $opacity: $gaydients-black-trans-opacity, $degrees: $gaydients-black-trans-degrees, $chunk: $gaydients-black-trans-chunk) {
+  $colors: $blue, $pink, $black, $pink, $blue;
 
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
