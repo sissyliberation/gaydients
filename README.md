@@ -398,6 +398,7 @@ this is licensed under [GNU GPLv3](https://github.com/anarchotechqueer/gaydients
 ## change log
 | version | change |
 | ------ | ------ |
+| 1.0.2 | add pride flag. add Black trans flag. |
 | 1.0.1 | create file for variables. make all default values variables |
 
 
