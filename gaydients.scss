@@ -89,6 +89,14 @@
   background-image: gaydient-rainbow($chunk: 0);
 }
 
+.#{$gaydients-class-prefix}-black-trans-flag {
+  background-image: gaydient-black-trans();
+}
+
+.#{$gaydients-class-prefix}-black-trans-gradient {
+  background-image: gaydient-black-trans($chunk: 0);
+}
+
 :export {
   prideFlag: gaydient-pride();
   prideGradient: gaydient-pride($chunk: 0);
