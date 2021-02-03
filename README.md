@@ -53,6 +53,8 @@ this gives you access to each of values ready for you to use:
   rainbowGradient: ...
   blackTransFlag: ...
   blackTransGradient: ...
+  genderfluidFlag: ...
+  genderfluidGradient: ...
 }
 ```
 
@@ -93,6 +95,10 @@ just import the sass:
 | .gaydient-bisexual-gradient | bisexual gradient background |
 | .gaydient-rainbow-flag | rainbow flag background |
 | .gaydient-rainbow-gradient | rainbow gradient background |
+| .gaydient-black-trans-flag | Black trans flag background |
+| .gaydient-black-trans-gradient | Black trans gradient background |
+| .gaydient-genderfluid-flag | genderfluid flag background |
+| .gaydient-genderfluid-gradient | genderfluid gradient background |
 
 you can also set change the `.gaydient` class prefix by setting `$gaydients-class-prefix` to whatever you want.
 
@@ -390,6 +396,32 @@ $gaydients-black-trans-degrees: ...
 $gaydients-black-trans-chunk: ...
 ```
 
+### gaydient-genderfluid
+function used to generate genderfluid flag
+
+| parameter | default value | description | type |
+| ------ | ------ | ------ | ------ |
+| $pink | #FD74A0 | pink portion | hex |
+| $white | #FFFFFF | pink portion | hex |
+| $purple | #BE17D7 | black portion | hex |
+| $black | #000000 | black portion | hex |
+| $blue | #313DBB | blue portion | hex |
+| $opacity | 1 | the opacity of each color | number between 0 and 1 (inclusive) |
+| $degrees | 180deg | degrees at which gradient is rendered | degrees |
+| $chunk | 1 | how solid each color portion is | number between 0 and 1 (inclusive) |
+
+these defaults are set through the following variables:
+```scss
+$gaydients-genderfluid-pink: ...
+$gaydients-genderfluid-white: ...
+$gaydients-genderfluid-purple: ...
+$gaydients-genderfluid-black: ...
+$gaydients-genderfluid-blue: ...
+$gaydients-genderfluid-opacity: ...
+$gaydients-genderfluid-degrees: ...
+$gaydients-genderfluid-chunk: ...
+```
+
 ## notes
 customizing the gradients for your exact specifications probably involves using both the sass to use the built-in functions and importing your custom values to js for best practices.
 
@@ -402,8 +434,10 @@ this is licensed under [GNU GPLv3](https://github.com/anarchotechqueer/gaydients
 ## change log
 | version | change |
 | ------ | ------ |
+| 1.0.4 | add genderqueer flag. |
+| 1.0.3 | add missing classes.  |
 | 1.0.2 | add pride flag. add Black trans flag. |
-| 1.0.1 | create file for variables. make all default values variables |
+| 1.0.1 | create file for variables. make all default values variables. |
 
 
 ## shout out
