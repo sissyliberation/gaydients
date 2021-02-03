@@ -1,6 +1,8 @@
 # gaydients
 gaydients is a collection of lgbtqiap+ gradients made with css. they help make the web gay. free and always will be.
 
+view examples at [gaydients.lgbt](https://gaydients.lgbt)
+
 ## installation
 
 install with npm:
