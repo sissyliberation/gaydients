@@ -92,3 +92,9 @@
 
   @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
 }
+
+@function gaydient-genderfluid($pink: $gaydients-genderfluid-pink, $white: $gaydients-genderfluid-white, $purple: $gaydients-genderfluid-purple, $black: $gaydients-genderfluid-black, $blue: $gaydients-genderfluid-blue, $opacity: $gaydients-genderfluid-opacity, $degrees: $gaydients-genderfluid-degrees, $chunk: $gaydients-genderfluid-chunk) {
+  $colors: $pink, $white, $purple, $black, $blue;
+
+  @return gaydients-linear-gradient($colors, $opacity, $degrees, $chunk);
+}

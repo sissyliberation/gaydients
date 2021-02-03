@@ -97,6 +97,14 @@
   background-image: gaydient-black-trans($chunk: 0);
 }
 
+.#{$gaydients-class-prefix}-genderfluid-flag {
+  background-image: gaydient-genderfluid();
+}
+
+.#{$gaydients-class-prefix}-genderfluid-gradient {
+  background-image: gaydient-genderfluid($chunk: 0);
+}
+
 :export {
   prideFlag: gaydient-pride();
   prideGradient: gaydient-pride($chunk: 0);
@@ -122,4 +130,6 @@
   rainbowGradient: gaydient-rainbow($chunk: 0);
   blackTransFlag: gaydient-black-trans();
   blackTransGradient: gaydient-black-trans($chunk: 0);
+  genderfluidFlag: gaydient-genderfluid();
+  genderfluidGradient: gaydient-genderfluid($chunk: 0);
 }
